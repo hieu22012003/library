@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.StudentController">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="600.0" prefWidth="808.0">
+         <children>
+            <TableView fx:id="tbStudents" layoutX="10.0" layoutY="91.0" prefHeight="509.0" prefWidth="792.0">
+              <columns>
+                <TableColumn fx:id="sName" prefWidth="148.0" text="Name" />
+                <TableColumn fx:id="sBirthday" minWidth="0.0" prefWidth="123.0" text="Birthday" />
+                  <TableColumn fx:id="sAdress" prefWidth="119.0" text="Adress" />
+                  <TableColumn fx:id="sEmail" minWidth="0.0" prefWidth="129.0" text="Email" />
+                  <TableColumn fx:id="sPhone" prefWidth="125.0" text="Phone" />
+                  <TableColumn fx:id="sAction" prefWidth="75.0" text="Action" />
+                  <TableColumn fx:id="sDelete" prefWidth="75.0" text="Delete" />
+              </columns>
+            </TableView>
+            <Button layoutX="650.0" layoutY="31.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="31.0" prefWidth="107.0" text="Add Student" />
+            <Button layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#backHome" prefHeight="31.0" prefWidth="107.0" text=" &lt;&lt;Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

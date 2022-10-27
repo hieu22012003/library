@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.BookController">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="600.0" prefWidth="808.0">
+         <children>
+            <TableView fx:id="tbBooks" layoutX="10.0" layoutY="91.0" prefHeight="509.0" prefWidth="792.0">
+              <columns>
+                <TableColumn fx:id="sName" prefWidth="161.0" text="Name" />
+                <TableColumn fx:id="sPublisherName" minWidth="0.0" prefWidth="146.0" text="Publisher Name" />
+                  <TableColumn fx:id="sPublishYear" prefWidth="141.0" text="Publish Year" />
+                  <TableColumn fx:id="sAuthor" minWidth="0.0" prefWidth="138.0" text="Author" />
+                  <TableColumn fx:id="sPrice" prefWidth="105.0" text="Price" />
+                  <TableColumn fx:id="sAction" prefWidth="100.0" text="Action" />
+              </columns>
+            </TableView>
+            <Button layoutX="650.0" layoutY="31.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="31.0" prefWidth="107.0" text="Add Book" />
+            <Button layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#backHome" prefHeight="31.0" prefWidth="107.0" text=" &lt;&lt;Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student.studentl.ContactController">
+   <children>
+      <TextField fx:id="txtName" layoutX="41.0" layoutY="57.0" prefHeight="27.0" prefWidth="216.0" promptText="Name" />
+      <TextField fx:id="txtPhone" layoutX="41.0" layoutY="120.0" prefHeight="27.0" prefWidth="216.0" promptText="Tel" />
+      <Button layoutX="170.0" layoutY="166.0" mnemonicParsing="false" onAction="#addContact" text="Add Contact" />
+      <Text fx:id="errors" fill="#da1414" layoutX="41.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <ListView fx:id="lv" layoutX="312.0" layoutY="57.0" prefHeight="282.0" prefWidth="265.0" />
+   </children>
+</Pane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="library.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="286.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Thư Viện" wrappingWidth="228.6708984375">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button onAction="#bookModule" layoutX="255.0" layoutY="144.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="260.0" text="Quản lý sách">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button onAction="#studentModule" layoutX="255.0" layoutY="243.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="260.0" text="Quản lý thành viên">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button onAction="#rentModule" layoutX="255.0" layoutY="344.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="260.0" text="Quản lý mượn sách">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
+Footer
